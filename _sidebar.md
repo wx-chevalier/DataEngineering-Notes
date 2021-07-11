@@ -65,6 +65,8 @@
       
     - [5.8 数据网格](/仓库、湖、中台/数据网格/README.md)
       
+    - 5.9 框架对比
+      - [5.9.1 Kylin、Druid、ClickHouse核心技术对比](/仓库、湖、中台/框架对比/2020-Kylin、Druid、ClickHouse核心技术对比.md)
   - [6 数据集成](/数据集成/README.md)
     - [6.1 Canal](/数据集成/Canal/README.md)
       - [6.1.1 架构机制](/数据集成/Canal/架构机制.md)
