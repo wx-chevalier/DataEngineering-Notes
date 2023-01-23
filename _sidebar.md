@@ -88,3 +88,8 @@
       
   - [5 HTAP](/HTAP/README.md)
     
+  - 6 .more
+    - [6.1 Designing Data Intensive Application](/.more/Designing%20Data-Intensive%20Application/README.md)
+      - [6.1.1 1.数据系统基础](/.more/Designing%20Data-Intensive%20Application/1.数据系统基础/README.md)
+        - [6.1.1.1 第一章：可靠性、可伸缩性和可维护性](/.more/Designing%20Data-Intensive%20Application/1.数据系统基础/第一章：可靠性、可伸缩性和可维护性.md)
+        - [6.1.1.2 第二章：数据模型与查询语言](/.more/Designing%20Data-Intensive%20Application/1.数据系统基础/第二章：数据模型与查询语言.md)
