@@ -24,47 +24,49 @@
     - 1.7 999.参考资料 [2]
       - [1.7.1 松子 一文遍历大数据架构变迁史](/1.大数据体系/999.参考资料/2021-松子-一文遍历大数据架构变迁史.md)
       - [1.7.2 一文读懂数据仓库、数据平台、数据中台、数据湖的概念和区别](/1.大数据体系/999.参考资料/2022-一文读懂数据仓库、数据平台、数据中台、数据湖的概念和区别.md)
-  - [2 10.OLAP [5]](/10.OLAP/README.md)
+  - [2 10.OLAP [4]](/10.OLAP/README.md)
     - 2.1 1.引擎架构 [3]
       - 2.1.1 999.参考资料 [2]
         - [2.1.1.1 Kylin、Druid、ClickHouse核心技术对比](/10.OLAP/1.引擎架构/999.参考资料/2020-Kylin、Druid、ClickHouse核心技术对比.md)
         - [2.1.1.2 常用引擎对比与概述](/10.OLAP/1.引擎架构/999.参考资料/2021-常用引擎对比与概述.md)
-      - [2.1.2 MPP](/10.OLAP/1.引擎架构/MPP.md)
+      - [2.1.2 MPP [1]](/10.OLAP/1.引擎架构/MPP/README.md)
+        - 2.1.2.1 999.参考资料 [1]
+          - [2.1.2.1.1 MPP 架构、常见 OLAP 引擎分析](/10.OLAP/1.引擎架构/MPP/999.参考资料/2022-MPP%20架构、常见%20OLAP%20引擎分析.md)
       - [2.1.3 OLAP 引擎](/10.OLAP/1.引擎架构/OLAP%20引擎.md)
     - 2.2 10.实践案例 [1]
       - [2.2.1 贝壳 OLAP 平台架构演进](/10.OLAP/10.实践案例/2021-贝壳%20OLAP%20平台架构演进.md)
-    - 2.3 BI 工具 [1]
-      - 2.3.1 999.参考资料 [1]
-        - [2.3.1.1 吐血测评九款 BI 工具，BI 选型就看这篇](/10.OLAP/BI%20工具/999.参考资料/2022-吐血测评九款%20BI%20工具，BI%20选型就看这篇.md)
-    - 2.4 MOLAP [3]
-      - [2.4.1 Druid](/10.OLAP/MOLAP/Druid/README.md)
+    - 2.3 2.MOLAP [3]
+      - [2.3.1 Druid](/10.OLAP/2.MOLAP/Druid/README.md)
         
-      - 2.4.2 HBase [3]
-        - [2.4.2.1 CRUD](/10.OLAP/MOLAP/HBase/CRUD.md)
-        - [2.4.2.2 架构分析](/10.OLAP/MOLAP/HBase/架构分析.md)
-        - [2.4.2.3 部署与使用](/10.OLAP/MOLAP/HBase/部署与使用.md)
-      - [2.4.3 Kylin](/10.OLAP/MOLAP/Kylin/README.md)
+      - 2.3.2 HBase [3]
+        - [2.3.2.1 CRUD](/10.OLAP/2.MOLAP/HBase/CRUD.md)
+        - [2.3.2.2 架构分析](/10.OLAP/2.MOLAP/HBase/架构分析.md)
+        - [2.3.2.3 部署与使用](/10.OLAP/2.MOLAP/HBase/部署与使用.md)
+      - [2.3.3 Kylin](/10.OLAP/2.MOLAP/Kylin/README.md)
         
-    - 2.5 ROLAP [5]
-      - [2.5.1 ClickHouse [1]](/10.OLAP/ROLAP/ClickHouse/README.md)
-        - 2.5.1.1 999.参考资料 [2]
-          - [2.5.1.1.1 陈峰 ClickHouse 架构及源码解析](/10.OLAP/ROLAP/ClickHouse/999.参考资料/2022-陈峰-ClickHouse%20架构及源码解析/README.md)
+    - 2.4 3.ROLAP [6]
+      - [2.4.1 ClickHouse [1]](/10.OLAP/3.ROLAP/ClickHouse/README.md)
+        - 2.4.1.1 999.参考资料 [2]
+          - [2.4.1.1.1 陈峰 ClickHouse 架构及源码解析](/10.OLAP/3.ROLAP/ClickHouse/999.参考资料/2022-陈峰-ClickHouse%20架构及源码解析/README.md)
             
-          - [2.5.1.1.2 ClickHouse 从入门到放弃](/10.OLAP/ROLAP/ClickHouse/999.参考资料/2023-ClickHouse%20从入门到放弃/README.md)
+          - [2.4.1.1.2 ClickHouse 从入门到放弃](/10.OLAP/3.ROLAP/ClickHouse/999.参考资料/2023-ClickHouse%20从入门到放弃/README.md)
             
-      - [2.5.2 Hive [6]](/10.OLAP/ROLAP/Hive/README.md)
-        - [2.5.2.1 HiveQL](/10.OLAP/ROLAP/Hive/HiveQL.md)
-        - [2.5.2.2 介绍与部署](/10.OLAP/ROLAP/Hive/介绍与部署.md)
-        - [2.5.2.3 数据类型](/10.OLAP/ROLAP/Hive/数据类型.md)
-        - [2.5.2.4 文件类型与存储格式](/10.OLAP/ROLAP/Hive/文件类型与存储格式.md)
-        - [2.5.2.5 自定义函数](/10.OLAP/ROLAP/Hive/自定义函数.md)
-        - [2.5.2.6 表操作](/10.OLAP/ROLAP/Hive/表操作.md)
-      - [2.5.3 Presto [1]](/10.OLAP/ROLAP/Presto/README.md)
-        - [2.5.3.1 部署与控制](/10.OLAP/ROLAP/Presto/部署与控制.md)
-      - [2.5.4 QuickSQL](/10.OLAP/ROLAP/QuickSQL/README.md)
+      - [2.4.2 Hive [6]](/10.OLAP/3.ROLAP/Hive/README.md)
+        - [2.4.2.1 HiveQL](/10.OLAP/3.ROLAP/Hive/HiveQL.md)
+        - [2.4.2.2 介绍与部署](/10.OLAP/3.ROLAP/Hive/介绍与部署.md)
+        - [2.4.2.3 数据类型](/10.OLAP/3.ROLAP/Hive/数据类型.md)
+        - [2.4.2.4 文件类型与存储格式](/10.OLAP/3.ROLAP/Hive/文件类型与存储格式.md)
+        - [2.4.2.5 自定义函数](/10.OLAP/3.ROLAP/Hive/自定义函数.md)
+        - [2.4.2.6 表操作](/10.OLAP/3.ROLAP/Hive/表操作.md)
+      - [2.4.3 Presto [1]](/10.OLAP/3.ROLAP/Presto/README.md)
+        - [2.4.3.1 部署与控制](/10.OLAP/3.ROLAP/Presto/部署与控制.md)
+      - [2.4.4 QuickSQL](/10.OLAP/3.ROLAP/QuickSQL/README.md)
         
-      - 2.5.5 Sqoop [1]
-        - [2.5.5.1 介绍与部署](/10.OLAP/ROLAP/Sqoop/介绍与部署.md)
+      - 2.4.5 Sqoop [1]
+        - [2.4.5.1 介绍与部署](/10.OLAP/3.ROLAP/Sqoop/介绍与部署.md)
+      - [2.4.6 StarRocks [1]](/10.OLAP/3.ROLAP/StarRocks/README.md)
+        - 2.4.6.1 999.参考资料 [1]
+          - [2.4.6.1.1 10 分钟带你全面了解 StarRocks！](/10.OLAP/3.ROLAP/StarRocks/999.参考资料/2022-10%20分钟带你全面了解%20StarRocks！.md)
   - [3 2.建模与治理 [6]](/2.建模与治理/README.md)
     - [3.1 1.Kimball 与 Inmon [1]](/2.建模与治理/1.Kimball%20与%20Inmon/README.md)
       - [3.1.1 Kimball](/2.建模与治理/1.Kimball%20与%20Inmon/Kimball.md)
@@ -72,7 +74,8 @@
       - [3.2.1 1.事实表、维度表、聚合表](/2.建模与治理/2.多维数据模型/1.事实表、维度表、聚合表.md)
       - [3.2.2 Data Cube](/2.建模与治理/2.多维数据模型/Data%20Cube.md)
       - [3.2.3 元数据](/2.建模与治理/2.多维数据模型/元数据.md)
-      - [3.2.4 星型与雪花模型](/2.建模与治理/2.多维数据模型/星型与雪花模型.md)
+      - [3.2.4 星型与雪花模型](/2.建模与治理/2.多维数据模型/星型与雪花模型/README.md)
+        
     - 3.3 3.数据治理 [3]
       - [3.3.1 原则与要素](/2.建模与治理/3.数据治理/原则与要素.md)
       - [3.3.2 数据零散化](/2.建模与治理/3.数据治理/数据零散化.md)
@@ -83,46 +86,47 @@
       - [3.5.1 Amundsen](/2.建模与治理/5.元数据管理/Amundsen.md)
     - [3.6 6.数仓搭建流程 [1]](/2.建模与治理/6.数仓搭建流程/README.md)
       - [3.6.1 数仓分层](/2.建模与治理/6.数仓搭建流程/数仓分层.md)
-  - [4 20.HTAP](/20.HTAP/README.md)
-    
-  - [5 3.数据集成 [4]](/3.数据集成/README.md)
-    - [5.1 Canal [2]](/3.数据集成/Canal/README.md)
-      - [5.1.1 架构机制](/3.数据集成/Canal/架构机制.md)
-      - [5.1.2 部署与配置](/3.数据集成/Canal/部署与配置.md)
-    - [5.2 DataPipeline [5]](/3.数据集成/DataPipeline/README.md)
-      - [5.2.1 一致性语义](/3.数据集成/DataPipeline/一致性语义.md)
-      - [5.2.2 数据汇集层](/3.数据集成/DataPipeline/数据汇集层.md)
-      - [5.2.3 数据源监听](/3.数据集成/DataPipeline/数据源监听.md)
-      - [5.2.4 数据转换与检索](/3.数据集成/DataPipeline/数据转换与检索.md)
-      - [5.2.5 运行环境与引擎](/3.数据集成/DataPipeline/运行环境与引擎.md)
-    - [5.3 Debezium](/3.数据集成/Debezium.md)
-    - [5.4 ETL](/3.数据集成/ETL/README.md)
+  - [4 3.数据集成 [4]](/3.数据集成/README.md)
+    - [4.1 Canal [2]](/3.数据集成/Canal/README.md)
+      - [4.1.1 架构机制](/3.数据集成/Canal/架构机制.md)
+      - [4.1.2 部署与配置](/3.数据集成/Canal/部署与配置.md)
+    - [4.2 DataPipeline [5]](/3.数据集成/DataPipeline/README.md)
+      - [4.2.1 一致性语义](/3.数据集成/DataPipeline/一致性语义.md)
+      - [4.2.2 数据汇集层](/3.数据集成/DataPipeline/数据汇集层.md)
+      - [4.2.3 数据源监听](/3.数据集成/DataPipeline/数据源监听.md)
+      - [4.2.4 数据转换与检索](/3.数据集成/DataPipeline/数据转换与检索.md)
+      - [4.2.5 运行环境与引擎](/3.数据集成/DataPipeline/运行环境与引擎.md)
+    - [4.3 Debezium](/3.数据集成/Debezium.md)
+    - [4.4 ETL](/3.数据集成/ETL/README.md)
       
-  - [6 4.数据可视化 [6]](/4.数据可视化/README.md)
-    - [6.1 可视化基础](/4.数据可视化/可视化基础/README.md)
+  - [5 4.数据可视化 [7]](/4.数据可视化/README.md)
+    - 5.1 BI 工具 [1]
+      - 5.1.1 999.参考资料 [1]
+        - [5.1.1.1 吐血测评九款 BI 工具，BI 选型就看这篇](/4.数据可视化/BI%20工具/999.参考资料/2022-吐血测评九款%20BI%20工具，BI%20选型就看这篇.md)
+    - [5.2 可视化基础](/4.数据可视化/可视化基础/README.md)
       
-    - 6.2 可视化工具 [1]
-      - [6.2.1 D3 [3]](/4.数据可视化/可视化工具/D3/README.md)
-        - [6.2.1.1 交互反馈](/4.数据可视化/可视化工具/D3/交互反馈/README.md)
+    - 5.3 可视化开发库 [1]
+      - [5.3.1 D3 [3]](/4.数据可视化/可视化开发库/D3/README.md)
+        - [5.3.1.1 交互反馈](/4.数据可视化/可视化开发库/D3/交互反馈/README.md)
           
-        - [6.2.1.2 图表示例](/4.数据可视化/可视化工具/D3/图表示例/README.md)
+        - [5.3.1.2 图表示例](/4.数据可视化/可视化开发库/D3/图表示例/README.md)
           
-        - [6.2.1.3 数据操作](/4.数据可视化/可视化工具/D3/数据操作/README.md)
+        - [5.3.1.3 数据操作](/4.数据可视化/可视化开发库/D3/数据操作/README.md)
           
-    - [6.3 图形语法](/4.数据可视化/图形语法/README.md)
+    - [5.4 图形语法](/4.数据可视化/图形语法/README.md)
       
-    - [6.4 多维数据可视化 [1]](/4.数据可视化/多维数据可视化/README.md)
-      - [6.4.1 可视化过程](/4.数据可视化/多维数据可视化/可视化过程.md)
-    - [6.5 探索分析 [1]](/4.数据可视化/探索分析/README.md)
-      - [6.5.1 数据透视表](/4.数据可视化/探索分析/数据透视表.md)
-    - [6.6 数据与图表类别 [5]](/4.数据可视化/数据与图表类别/README.md)
-      - [6.6.1 关联类](/4.数据可视化/数据与图表类别/关联类.md)
-      - [6.6.2 平面比较类](/4.数据可视化/数据与图表类别/平面比较类.md)
-      - [6.6.3 数据类别](/4.数据可视化/数据与图表类别/数据类别.md)
-      - [6.6.4 柱状比较类](/4.数据可视化/数据与图表类别/柱状比较类.md)
-      - [6.6.5 韦恩图](/4.数据可视化/数据与图表类别/韦恩图.md)
-  - 7 999.参考资料 [1]
-    - [7.1 Designing Data Intensive Application [1]](/999.参考资料/Designing%20Data-Intensive%20Application/README.md)
-      - [7.1.1 1.数据系统基础 [2]](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/README.md)
-        - [7.1.1.1 第一章：可靠性、可伸缩性和可维护性](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第一章：可靠性、可伸缩性和可维护性.md)
-        - [7.1.1.2 第二章：数据模型与查询语言](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第二章：数据模型与查询语言.md)
+    - [5.5 多维数据可视化 [1]](/4.数据可视化/多维数据可视化/README.md)
+      - [5.5.1 可视化过程](/4.数据可视化/多维数据可视化/可视化过程.md)
+    - [5.6 探索分析 [1]](/4.数据可视化/探索分析/README.md)
+      - [5.6.1 数据透视表](/4.数据可视化/探索分析/数据透视表.md)
+    - [5.7 数据与图表类别 [5]](/4.数据可视化/数据与图表类别/README.md)
+      - [5.7.1 关联类](/4.数据可视化/数据与图表类别/关联类.md)
+      - [5.7.2 平面比较类](/4.数据可视化/数据与图表类别/平面比较类.md)
+      - [5.7.3 数据类别](/4.数据可视化/数据与图表类别/数据类别.md)
+      - [5.7.4 柱状比较类](/4.数据可视化/数据与图表类别/柱状比较类.md)
+      - [5.7.5 韦恩图](/4.数据可视化/数据与图表类别/韦恩图.md)
+  - 6 999.参考资料 [1]
+    - [6.1 Designing Data Intensive Application [1]](/999.参考资料/Designing%20Data-Intensive%20Application/README.md)
+      - [6.1.1 1.数据系统基础 [2]](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/README.md)
+        - [6.1.1.1 第一章：可靠性、可伸缩性和可维护性](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第一章：可靠性、可伸缩性和可维护性.md)
+        - [6.1.1.2 第二章：数据模型与查询语言](/999.参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第二章：数据模型与查询语言.md)
