@@ -1,6 +1,6 @@
 # 图表
 
-![](https://i.postimg.cc/MZwF9wGq/01.png)
+![](https://i.postimg.cc/MZwF9wGq/01.png?dl=1)
 
 # Links
 
