@@ -20,4 +20,4 @@
 
 某个指标包含三个部分：时间修饰、维度（Dimension）以及原子词/度量（Measure）。
 
-![](https://i.postimg.cc/B64bpmYd/image.png)
+![](https://assets.ng-tech.icu/item/20230424144427.png)
