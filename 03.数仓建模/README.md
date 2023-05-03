@@ -8,7 +8,7 @@
 
 ![ETL至数据仓库的简化提纲](https://s2.ax1x.com/2020/02/06/1yt8hR.md.png)
 
-> 数据仓库中很多的内容都涉及到[《分布式数据处理》](https://github.com/wx-chevalier/DistributedSystem-Series)，请自行参阅。
+> 数据仓库中很多的内容都涉及到[《分布式数据处理》](https://github.com/wx-chevalier/DistributedSystem-Notes)，请自行参阅。
 
 # 数仓特性
 
