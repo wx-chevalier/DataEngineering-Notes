@@ -1,6 +1,6 @@
 # 图表
 
-![](https://i.postimg.cc/MZwF9wGq/01.png?dl=1)
+![](https://assets.ng-tech.icu/item/20230503195821.png)
 
 # Links
 
