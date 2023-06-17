@@ -122,7 +122,7 @@ Druid 的关键特性如下：
 
 TiDB 是 PingCAP 公司自主设计、研发的开源分布式关系型数据库，是一款同时支持 OLTP 与 OLAP 的融合型分布式数据库产品。
 
-TiDB 兼容 MySQL 5.7 协议和 MySQL 生态等重要特性。目标是为用户提供一站式 OLTP 、OLAP 、HTAP 解决方案。TiDB 适合高可用、强一致要求较高、数据规模较大等各种应用场景。
+TiDB 兼容 MySQL 5.7 协议和 MySQL 生态等重要特性。目标是为用户提供一站式 OLTP、OLAP、HTAP 解决方案。TiDB 适合高可用、强一致要求较高、数据规模较大等各种应用场景。
 
 ### 5、Greenplum
 
