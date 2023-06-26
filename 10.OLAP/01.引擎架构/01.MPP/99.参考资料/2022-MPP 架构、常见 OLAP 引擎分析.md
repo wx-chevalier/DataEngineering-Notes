@@ -68,7 +68,7 @@ NUMA 和 MPP 区别：二者有许多相似之处，首先 NUMA 和 MPP 都是�
 - 对于批处理而言，如 Spark 将会写磁盘三次(第一次写入：表 1 根据 join key 进行 shuffle；第二次写入：表 2 根据 join key 进行 shuffle；第三次写入：Hash 表写入磁盘)，
 - 而 MPP 只需要一次写入(Hash 表写入)。这是因为 MPP 将 mapper 和 reducer 同时运行，而 MapReduce 将它们分成有依赖关系的 tasks(DAG),这些 task 是异步执行的，因此必须通过写入中间数据共享内存来解决数据的依赖。
 
-# 三、 MPP 架构的 OLAP 引擎
+# 三、MPP 架构的 OLAP 引擎
 
 采用 MPP 架构的 OLAP 引擎有很多，下面只选择常见的几个引擎对比下。采用 MPP 架构的 OLAP 引擎分为两类，一类：是自身不存储数据，只负责计算的引擎；一类：是自身既存储数据，也负责计算的引擎。
 
