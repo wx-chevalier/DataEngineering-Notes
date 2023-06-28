@@ -272,7 +272,7 @@ LIFECYCLE 400;
 
 ![创建基础明细表](https://assets.ng-tech.icu/item/20230325152423.png)
 
-### DWS（ data warehouse service）数据服务层，汇总层宽表
+### DWS（data warehouse service）数据服务层，汇总层宽表
 
 ![数据轻汇总层](https://assets.ng-tech.icu/item/20230325152521.png)
 
