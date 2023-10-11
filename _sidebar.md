@@ -140,7 +140,10 @@
     - 5.4 10.实践案例 [1]
       - [5.4.1 贝壳 OLAP 平台架构演进](/10~OLAP/10.实践案例/2021-贝壳%20OLAP%20平台架构演进.md)
   - 6 99~参考资料 [1]
-    - [6.1 Designing Data Intensive Application [1]](/99~参考资料/Designing%20Data-Intensive%20Application/README.md)
-      - [6.1.1 1.数据系统基础 [2]](/99~参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/README.md)
-        - [6.1.1.1 第一章：可靠性、可伸缩性和可维护性](/99~参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第一章：可靠性、可伸缩性和可维护性.md)
-        - [6.1.1.2 第二章：数据模型与查询语言](/99~参考资料/Designing%20Data-Intensive%20Application/1.数据系统基础/第二章：数据模型与查询语言.md)
+    - 6.1 《Designing Data Intensive Application》 [2]
+      - [6.1.1 原书翻译 [1]](/99~参考资料/《Designing%20Data-Intensive%20Application》/原书翻译/README.md)
+        - [6.1.1.1 1.数据系统基础 [2]](/99~参考资料/《Designing%20Data-Intensive%20Application》/原书翻译/1.数据系统基础/README.md)
+          - [6.1.1.1.1 第一章：可靠性、可伸缩性和可维护性](/99~参考资料/《Designing%20Data-Intensive%20Application》/原书翻译/1.数据系统基础/第一章：可靠性、可伸缩性和可维护性.md)
+          - [6.1.1.1.2 第二章：数据模型与查询语言](/99~参考资料/《Designing%20Data-Intensive%20Application》/原书翻译/1.数据系统基础/第二章：数据模型与查询语言.md)
+      - [6.1.2 精度](/99~参考资料/《Designing%20Data-Intensive%20Application》/精度/README.md)
+        
