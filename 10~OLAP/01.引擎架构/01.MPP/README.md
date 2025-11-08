@@ -4,7 +4,7 @@
 
 MPP 即大规模并行处理（Massively Parallel Processor）。在数据库非共享集群中，每个节点都有独立的磁盘存储系统和内存系统，业务数据根据数据库模型和应用特点划分到各个节点上，每台数据节点通过专用网络或者商业通用网络互相连接，彼此协同计算，作为整体提供数据 库服务。非共享数据库集群有完全的可伸缩性、高可用、高性能、优秀的性价比、资源共享等优势。
 
-![MPP 架构](https://assets.ng-tech.icu/item/20230407224442.png)
+![MPP 架构](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/20230407224442.png)
 
 ## 案例
 
