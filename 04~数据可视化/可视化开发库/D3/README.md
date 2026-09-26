@@ -179,7 +179,6 @@ D3 是一个 JavaScript 库，用于在网络上创建定制的交互式图表�
 	initialiseData();
 	update(myData);
 
-
 	</script>
 </body>
 </html>
